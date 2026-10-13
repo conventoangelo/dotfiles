@@ -182,8 +182,8 @@ menupopup,
   --tab-border-radius: 6px !important;
 }
 
-[zen-compact-mode="true"] .browser-toolbox-background {
-  height: 80% !important;
+[zen-compact-mode="true"] #navigator-toolbox {
+  height: 90% !important;
   margin-block: auto !important;
 }
 
@@ -250,10 +250,6 @@ menupopup,
 .unified-extensions-item-action-button,
 .unified-extensions-item-menu-button {
   padding-block: 0px !important;
-}
-
-#unified-extensions-view {
-  width: 290px !important;
 }
 
 
