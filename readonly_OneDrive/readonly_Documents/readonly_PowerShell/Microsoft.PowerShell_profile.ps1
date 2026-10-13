@@ -127,4 +127,6 @@ Set-Alias -Name ll -Value ezg
 Set-Alias -Name lt -Value ezt
 
 ## fastfetch
-fastfetch -c paleofetch.jsonc
+## if (Get-Command fastfetch -ErrorAction SilentlyContinue) {
+##    fastfetch -c paleofetch.jsonc
+## }
