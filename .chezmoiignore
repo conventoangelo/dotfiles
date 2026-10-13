@@ -8,9 +8,13 @@ AppData/Roaming/zen/Profiles/w7ijp96p.Default (release)/chrome/userChrome.css
 {{- end }}
 
 {{- if ne .chezmoi.os "darwin" }}
-
+dot_zshrc
 {{- end }}
 
 {{- if ne .chezmoi.os "linux" }}
 
 {{- end }}
+
+{{ if eq .chezmoi.os "windows" }}
+.zshrc
+{{ end }}
