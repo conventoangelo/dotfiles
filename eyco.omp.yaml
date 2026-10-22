@@ -3,7 +3,7 @@
 version: 4
 upgrade:
   notice: true
-  auto: true
+  auto: false
 final_space: true
 
 console_title_template: "{{.Shell}} in {{.PWD}}"
